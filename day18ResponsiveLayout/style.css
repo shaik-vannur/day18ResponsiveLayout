@@ -1,0 +1,153 @@
+
+    .top2{
+background-color: rgb(132, 71, 189);
+border:5px dashed hwb(0 50% 6%);
+margin: 20px;
+    }
+    p{
+        text-align: justify;
+        color: rgb(23, 34, 27);
+    }
+    .last3{
+        background-color: hsl(0, 78%, 64%);
+        margin: 20px;
+        border: 5px solid #916e15;
+    }
+    nav{
+        text-decoration: none;
+        font-size: 20px ;
+        margin: 10px;
+        
+    }
+    .heading{
+        color: rgb(42, 12, 12);
+        background-color: #2e813fbc;
+        margin: 20px;
+        border: 3px solid rgb(143, 108, 65);
+        width: 550px;
+        display: block;
+        text-align: center;
+        
+    }
+    a{
+        border: 1px solid blue;
+        background-color: #bdae89;
+        text-decoration: none;
+    }
+    .usa{
+        background-color: rgb(132, 71, 189);
+border:5px dashed hwb(0 50% 6%);
+margin: 20px;
+    }
+    .russia{
+        background-color: rgb(132, 71, 189);
+border:5px dashed hwb(0 50% 6%);
+margin: 20px;
+    }
+    .china{
+        
+        background-color: hsl(0, 78%, 64%);
+        margin: 20px;
+        border: 5px solid #916e15;
+    }
+    .india{
+        
+        background-color: hsl(0, 78%, 64%);
+        margin: 20px;
+        border: 5px solid #916e15;
+    }
+    .south_korea{
+        
+        background-color: hsl(0, 78%, 64%);
+        margin: 20px;
+        border: 5px solid #916e15;
+    }
+.USAFlag{
+    width: 50%;
+    height: 60%;
+}
+.russiaFlag{
+    width: 50%;
+    height: 60%;
+    min-width: 300px;
+    max-width: 800px;
+}
+.chinaFlag{
+width: 50%;
+height: 60%;
+}
+.indiaFlag{
+    width: 50%;
+    height: 60%;
+}
+.southKoreaFlag{
+    width: 50%;
+    height: 60%;
+
+}
+@media screen and (max-width:576px)  {
+    body{
+        background-color: lightcoral;
+    }
+    .top2{
+        background-color: green;
+    }
+    .last3{
+        background-color: lightsalmon;
+    }
+}
+@media screen and (min-width:576px) and (max-width:768px) {
+    body{
+        background-color: rgb(128, 214, 240);
+    }
+    .top2{
+        background-color: rgb(173, 41, 43);
+    }
+    .last3{
+        background-color: lightblue;
+    }
+}
+@media screen and (min-width:768px) and (max-width:992px) {
+    body{
+        background-color: rgb(240, 158, 128);
+    }
+    .top2{
+        background-color: rgb(41, 173, 171);
+    }
+    .last3{
+        background-color: rgb(187, 66, 173);
+    }
+}
+@media screen and (min-width:992px) and (max-width:1200px) {
+    body{
+        background-color: rgb(128, 225, 240);
+    }
+    .top2{
+        background-color: rgb(118, 173, 41);
+    }
+    .last3{
+        background-color: rgb(187, 98, 66);
+    }
+}
+@media screen and (min-width:1200px) and (max-width:1400px) {
+    body{
+        background-color: rgb(216, 240, 128);
+    }
+    .top2{
+        background-color: rgb(136, 173, 41);
+    }
+    .last3{
+        background-color: rgb(66, 149, 187);
+    }
+}
+@media screen and (min-width:1400px)  {
+    body{
+        background-color: rgb(240, 158, 128);
+    }
+    .top2{
+        background-color: rgb(41, 173, 171);
+    }
+    .last3{
+        background-color: rgb(187, 66, 173);
+    }
+}
